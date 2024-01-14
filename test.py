@@ -8,3 +8,8 @@ x1=(-b-math.sqrt(delta))/(2*a)
 print('pierwsze rozwiązanie równania ',x1)
 x2=(-b+math.sqrt(delta))/(2*a)
 print('drugie rozwiązanie równania ',x2)
+if delta>0:
+    x1=(-b+math.sqrt(delta))/(2*a)
+print('pierwsze rozwiązanie równania ',x1)
+x2=(-b-math.sqrt(delta))/(2*a)
+print('drugie rozwiązanie równania ',x2)
